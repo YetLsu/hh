@@ -18,7 +18,7 @@
 #import <UserNotifications/UserNotifications.h>
 #endif
 //发布的时候把这里test改成production
-#define kDevEnvironment @"production"
+#define kDevEnvironment @"test"
 #import <React/RCTBundleURLProvider.h>
 #import <React/RCTRootView.h>
 
@@ -72,7 +72,7 @@
 {
   self.type = @"1";
   [self performSelector:@selector(sendLog) withObject:nil afterDelay:5];
-  [JPUSHService setupWithOption:launchOptions appKey:@"d3c8b18fdb2e808134329728"
+  [JPUSHService setupWithOption:launchOptions appKey:@"dc70073d946b5e86499a3727"
                         channel:nil apsForProduction:nil];
   
 
@@ -81,7 +81,7 @@
   //  延迟
   NSDateFormatter *fromatter = [[NSDateFormatter alloc] init];
   fromatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
-  NSDate *date = [fromatter dateFromString:@"2018-05-08 00:00:00"];//当天时间后的7天
+  NSDate *date = [fromatter dateFromString:@"2018-05-14 00:00:00"];//当天时间后的7天
   NSDate *today = [NSDate date];
   if ([date compare:today]>0) {
     self.window.rootViewController = [[ViewController alloc] init];

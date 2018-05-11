@@ -555,6 +555,8 @@
 		1F7B3D12209B08940015772F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1F7B3D1B209B09620015772F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F7B3D1D209B0A860015772F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1F9F841E20A5A32E0096E640 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1F9F845920A5A32E0096E640 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* NineOneCP-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NineOneCP-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* NineOneCP-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NineOneCP-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1232,11 +1234,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 2C38Z9RCES;
+						DevelopmentTeam = L77J2J2ZS6;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 2C38Z9RCES;
+						DevelopmentTeam = L77J2J2ZS6;
 						SystemCapabilities = {
 							com.apple.Push = {
 								enabled = 1;
@@ -1263,6 +1265,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 83CBB9F61A601CBA00E9B192;
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
@@ -1942,6 +1945,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				13B07FB21A68108700A75B9A /* Base */,
+				1F9F841E20A5A32E0096E640 /* zh-Hans */,
 			);
 			name = LaunchScreen.xib;
 			path = NineOneCP;
@@ -1951,6 +1955,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1F7B3D1B209B09620015772F /* en */,
+				1F9F845920A5A32E0096E640 /* zh-Hans */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1962,7 +1967,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 2C38Z9RCES;
+				DEVELOPMENT_TEAM = L77J2J2ZS6;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -2021,7 +2026,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 2C38Z9RCES;
+				DEVELOPMENT_TEAM = L77J2J2ZS6;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-background-timer/ios",
@@ -2079,7 +2084,7 @@
 				CODE_SIGN_ENTITLEMENTS = NineOneCP/NineOneCP.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 2C38Z9RCES;
+				DEVELOPMENT_TEAM = L77J2J2ZS6;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2107,7 +2112,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.546a.a406;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1200.9bbc;
 				PRODUCT_NAME = NineOneCP;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -2120,7 +2125,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = NineOneCP/NineOneCP.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2C38Z9RCES;
+				DEVELOPMENT_TEAM = L77J2J2ZS6;
 				GCC_PREFIX_HEADER = PrefixHeader.pch;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2148,7 +2153,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.546a.a406;
+				PRODUCT_BUNDLE_IDENTIFIER = com.1200.9bbc;
 				PRODUCT_NAME = NineOneCP;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
